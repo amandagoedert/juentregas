@@ -61,7 +61,7 @@ interface Client {
     {
       id: "larissa-order-id-456", // Um ID único para o pedido
       clientId: "12345678900", // CPF da Larissa (limpo, sem formatação)
-      orderNumber: "JE" + Math.random().toString().slice(2, 10), // Número de pedido gerado aleatoriamente
+      orderNumber: "JE98765432", // NÚMERO DE PEDIDO FIXO PARA DEMONSTRAÇÃO
       collectionAddress: "Rua Exemplo, 100 - Centro, Cascavel - PR", // Endereço de exemplo
       deliveryAddress: "Getúlio Vargas, 20 - Centro, Irati - SC, 89856-000",
       currentStatus: "Em Trânsito",
